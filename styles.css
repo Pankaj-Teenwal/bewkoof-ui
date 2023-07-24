@@ -1,0 +1,168 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+/* Top Bar code start From here*/
+.topBar {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  background-color: #eeeeee;
+
+  font-family: montserrat, sans-serif;
+}
+.left {
+  margin-left: 50px;
+  padding-left: 76px;
+}
+.right {
+  margin-right: 50px;
+  padding-left: 40px;
+}
+.headerLinks {
+  margin: 10px;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  background: transparent;
+  color: black;
+}
+/*Top Bar code ends here*/
+
+/*Main Header Code start from here*/
+.mainHeader {
+  height: 50px;
+  width: 100%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  display: flex;
+}
+
+.logo img {
+  height: 20px;
+  width: 147px;
+}
+
+.headerLeft {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: 10px;
+  padding-left: 137px;
+}
+.header-menu span {
+  cursor: pointer;
+  font-size: 13px;
+  padding: 0 11px;
+  font-size: 13px;
+  font-family: montserrat, sans-serif;
+}
+.headerRight {
+  display: flex;
+  margin-right: 123px;
+  gap: 10px;
+}
+
+.searchBar {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  border: 1px solid silver;
+  border-radius: 4px;
+  margin-right: 130px;
+  background-color: #eaeaea;
+  margin: 5px;
+}
+
+.searchBar input {
+  outline: none;
+  padding-left: 10px;
+  border: none;
+  background-color: #eaeaea;
+  height: 100%;
+  font-size: 13px;
+  font-family: montserrat, sans-serif;
+}
+.login {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 13px;
+  font-family: montserrat, sans-serif;
+}
+/*Main Header Code end here*/
+.item {
+  height: 59px;
+}
+.category {
+  display: flex;
+  width: 100%;
+
+  justify-content: space-evenly;
+  align-items: center;
+}
+.item {
+  display: flex;
+  align-items: center;
+  font-family: montserrat-medium, sans-serif;
+  font-weight: 500;
+  font-size: 17px;
+}
+
+
+/*product container starts from here*/
+
+.product-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.card {
+  padding: 0 8px;
+  width: 237px;
+  position: relative;
+  
+}
+.card img {
+  height: 300px;
+  width: 245px;
+}
+
+/*Product details*/
+card-info {
+  width: 100%;
+  overflow: hidden;
+}
+.name {
+  margin-top: 4px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  font-family: montserrat-regular; sans-serif !important;
+  font-size: 10px !important;
+  line-height: 12px !important;
+}
+
+.strike-through{
+    text-decoration: line-through;
+}
+
+.hover-tag{
+    background-color:#536756;
+    color: white;
+    font-family: montserrat-regular;
+    font-size: 10px;
+    position: absolute;
+    top: 0px;
+    padding: 2px;
+}
+.rating{
+    font-size: 10px;
+    border: 1px solid silver;
+    background-color: #bdbdbc;
+    position: absolute;
+    top: 270px;
+}
